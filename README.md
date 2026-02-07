@@ -1,8 +1,6 @@
 ## Multi-Channel Thermocouple Measurement System (MAX31856)
 
-A scalable, multi-channel thermocouple data acquisition system built using the MAX31856 with hardware cold-junction compensation, designed for high-temperature and welding-related applications.
-
-This project focuses on correct instrumentation design, reproducibility, and research-grade temperature measurement — not just getting “some numbers” from sensors.
+This project implements a scalable, multi-channel thermocouple data acquisition system using the MAX31856 thermocouple-to-digital converter. Each channel performs independent cold-junction compensation and communicates digitally over SPI, enabling reliable absolute temperature measurement across a wide range of high-temperature and thermal monitoring applications, including welding, heat treatment, and experimental research.
 
 ## Why this project exists
 
@@ -125,4 +123,13 @@ The MAX31856 is designed specifically to address the above problems:
 - Data remains valid across environments
 
 ⚠️ Note: Direct molten pool or arc temperatures require specialized probes and techniques.
+
+## Example Applications
+
+- Welding and heat-affected zone (HAZ) monitoring  
+- Furnace and kiln temperature measurement  
+- Thermal profiling of power electronics  
+- Materials and metallurgical research  
+- Industrial and laboratory temperature logging  
+
 
